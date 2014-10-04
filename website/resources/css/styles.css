@@ -1,0 +1,57 @@
+body {
+  background-color: #ff4038;
+  color: white;
+  text-align: right; }
+  body video#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(resources/video/nightpic.png) no-repeat;
+    background-size: cover;
+    opacity: 0.75; }
+  body a {
+    font-family: "Open Sans";
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding-right: 2%;
+    padding-top: 5%; }
+  body #mainContent {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(20, 0, 0, 0.4);
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(10%);
+    padding-top: 8%;
+    padding-bottom: 6%;
+    text-align: center; }
+    body #mainContent #mc_embed_signup {
+      display: inline-block;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif; }
+      body #mainContent #mc_embed_signup input.email {
+        font-size: 15px;
+        font-family: "Open Sans";
+        min-height: 30px;
+        min-width: 400px; }
+      body #mainContent #mc_embed_signup .clear {
+        font-family: "Open Sans"; }
+    body #mainContent p#title {
+      font-family: "Lobster Two";
+      font-weight: lighter;
+      font-size: 10em;
+      margin-bottom: 0;
+      margin-top: 0; }
+    body #mainContent p#slogan {
+      font-family: "Open Sans";
+      font-size: 3em; }
+
+/*# sourceMappingURL=styles.css.map */
